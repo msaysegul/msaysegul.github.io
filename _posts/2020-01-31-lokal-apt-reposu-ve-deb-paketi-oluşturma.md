@@ -91,14 +91,14 @@ Böylelikle paketlerimizi web sunucumuzda sunmuş olduk.
 
 ![GitHub Logo](/img/bitti.png)
 
- Son olarak uygulamımızda değişiklik yaptğımızda tekrardan build edip, control dosyasında versiyonunu değiştirip deb paketini güncelleyip tekrar repomuza attığımızda, client makinemizde
+ Son olarak uygulamımızda değişiklik yaptğımızda tekrardan build edip, control dosyasında versiyonunu değiştirip deb paketini güncelleyip tekrar repomuza attığımızda, client makinemizde;
 
 ```
 sudo apt update
 sudo apt upgrade
 ```
 
-dediğimizde uygulamımızın yeni versiyonu olduğunu görüyoruz.Uygulamamızı repomuzdan güncelleyebiliriz.
+dediğimizde uygulamımızın yeni versiyonu olduğunu görüyoruz. Uygulamamızı repomuzdan güncelleyebiliriz.
 
 ![GitHub Logo](/img/enson.png)
 
