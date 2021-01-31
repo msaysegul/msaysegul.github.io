@@ -10,8 +10,10 @@ title:  Lokal Apt Deposu ve Deb Paketi Oluşturma
 ###  - Golang kurulumu
 ###  - Lokal-Repo ve Client olarak kullanacağımız iki Ubuntu sürümü.
 
-`sudo apt-get install apache2`
-`systemctl status apache2.service`
+```
+    sudo apt-get install apache2
+    systemctl status apache2.service
+```
 
 
 ![GitHub Logo](/img/apache.png)
@@ -78,8 +80,8 @@ Böylelikle paketlerimizi web sunucumuzda sunmuş olduk.
 
 İstemcimizin source.list'ine depomuzu ekleyelim.
 
- `sudo nano /etc/apt/sources.list  `
- `deb [trusted=yes] http://localhost/debian ./  `
+ `sudo nano /etc/apt/sources.list`
+ `deb [trusted=yes] http://localhost/debian ./`
 
 ![GitHub Logo](/img/sourcelist.png)
 
@@ -87,6 +89,7 @@ Böylelikle paketlerimizi web sunucumuzda sunmuş olduk.
  sudo apt update
  sudo apt install helloworld
  helloworld
+
  ```
 
 ![GitHub Logo](/img/bitti.png)
@@ -96,6 +99,7 @@ Böylelikle paketlerimizi web sunucumuzda sunmuş olduk.
 ```
 sudo apt update
 sudo apt upgrade
+
 ```
 
 dediğimizde uygulamımızın yeni versiyonu olduğunu görüyoruz. Uygulamamızı repomuzdan güncelleyebiliriz.
