@@ -1,5 +1,5 @@
 # Setup
-title: Aysegul Aktas
+title: Aysegul
 url: https://getpoole.com
 paginate: 1
 baseurl: ""
@@ -32,7 +32,7 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Aysegul Aktas
+  name: Aysegul
   url:
   email:
 
