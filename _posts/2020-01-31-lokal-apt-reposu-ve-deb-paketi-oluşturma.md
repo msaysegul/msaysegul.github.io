@@ -2,7 +2,7 @@
 layout: post
 title:  Lokal Apt Deposu ve Deb Paketi Oluşturma
 ---
-#  Lokal Apt Reposu ve Deb Paketleri Oluşturma
+
 
 ## Gereklilikler
 
@@ -91,7 +91,7 @@ Paketimiz .deb hale geldi.Şimdi yapacağımız işlemleri `sudo su` ile root ol
  ```
 Böylelikle paketlerimizi web sunucumuzda sunmuş olduk.
 
- ## Deb paketine apt depomuzdan ulaşma
+## Deb paketine apt depomuzdan ulaşma
 
 İstemcimizin source.list'ine depomuzu ekleyelim.
 
